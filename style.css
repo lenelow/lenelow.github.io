@@ -37,7 +37,23 @@ button {
 	background-color: #83DEFF;
 	color: #34403F;
 	font-family: 'Do Hyeon', sans-serif;
-	border: 1px solid #34403F;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: -2px 7px 3px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+	background-color: #76C8E5
+}
+
+button:active {
+  background-color: #76C8E5;
+  box-shadow: -2px 7px 3px rgba(0, 0, 0, 0.15);
+  transform: translateY(4px);
+}
+
+button:focus {
+    border: none;
+    outline: none;
 }
 
 .containerTwo {
@@ -63,7 +79,7 @@ li {
 	margin-bottom: 110px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
     #typedtext {
         margin: 110px 160px 10px 220px;
 	}
