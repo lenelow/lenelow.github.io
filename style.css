@@ -1,10 +1,10 @@
-/* body {
-	overflow: hidden; 
-} */ 
+body {
+	margin: 0;
+} 
 
 .containerOne {
 	height: 640px;
-	background-color: #DBC8FF;
+	background-color: #F5E7FF;
 	width: 100vw;
 	height: 100vh;
 	padding-top: 100px;
@@ -33,15 +33,25 @@ button {
 	margin-top: 60px;
 	border-radius: 40px;
 	font-size: 17px;
-	background-color: #83C8FF;
+	background-color: #C2E7FF;
 	color: #34403F;
 	font-family: 'Do Hyeon', sans-serif;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	box-shadow: -2px 7px 3px rgba(0, 0, 0, 0.15);
 }
 
+.myProjects {
+	margin-left: 7vw;
+	margin-top: 6vh;
+	font-family: 'Rubik', sans-serif;
+}
+
 button:hover {
 	background-color: #76C8E5
+}
+
+.projectList {
+	margin-top: 12vh;
 }
 
 button:active {
@@ -60,14 +70,20 @@ button:focus {
 	font-family: 'Tajawal', sans-serif;
 	font-size: 15px;
 	height: 640px;
-	background: #E3DEDB;
-	padding-top: 10px;
+	background: #AFD0E5;
+	padding: 5px;
 	width: 100vw;
 }
 
 ul {
 	list-style-type: none;
 	margin-left: 30px;
+}
+
+.project:hover {
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5); 
 }
 
 li {

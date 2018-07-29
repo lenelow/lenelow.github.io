@@ -6,11 +6,11 @@
 		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Kirang+Haerang" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Kirang+Haerang|Rubik" rel="stylesheet">
   </head>
   <body>
 		<main>
-			<div class="st-container">
+			<div>
 				<div class="containerOne">
 					<div class="animationDiv">
 						<p id="typedtext">Hi there! My name is Leah and I'm a full-stack developer.</p>
@@ -20,24 +20,17 @@
 					</div>
 				</div>
 				<div class="containerTwo">
-						<p id="invisibleP"></p>
-					<div class="explanationDiv">
-							<p>
-									Over the past few months, I've been working on a number of projects using the tools and languages I've been studying. To practice, demostrate and apply what I've learned, I've built the followign projects:
-							</p>
+					<p id="invisibleP"></p>	
+					<div>
+						<h1 class="myProjects">My Projects:</h1>
+						<ul class="projectList"> 
+							<li onMouseOver="hide('project2', 'project3')", onMouseOut="show('project2', 'project3')",id="project1" class="project"><a href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a></li> 
+							<li onMouseOver="hide('project1', 'project3')", onMouseOut="show('project1', 'project3')"id="project2" class="project"><a href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a></li>
+							<li onMouseOver="hide('project1', 'project2')", onMouseOut="show('project1', 'project2')"id="project3" class="project"><a href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a></li>
+							<li id="project4" class="project"><h2 class="browse">More on the way...</h2></li>
+						</ul>
 					</div>
 				</div>
-			
-
-	
-		<div class="myProjects">
-				<ul> 
-					<li class="projectsList"><a href="https://placeholder.com"><img src="http://via.placeholder.com/300x300"></a></li> 
-					<li class="projectsList"><a href="https://placeholder.com"><img src="http://via.placeholder.com/300x300"></a></li>
-					<li class="projectsList"><a href="https://placeholder.com"><img src="http://via.placeholder.com/300x300"></a></li>
-					<li class="projectsList"><h2 class="browse">Coninue Browsing &#62;</h2></li>
-				</ul>
-			</div>
 		</div>
 		</main>	
   		<!-- <h2 class="skills">My Skills</h2> -->

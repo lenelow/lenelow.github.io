@@ -60,7 +60,7 @@ $('a[href="#invisibleP"]')
           {
             scrollTop: target.offset().top
           },
-          1000,
+          800,
           function() {
             // Callback after animation
             // Must change focus!
@@ -78,3 +78,12 @@ $('a[href="#invisibleP"]')
       }
     }
   });
+
+function show(idOne, idTwo) {
+  document.getElementById(idOne).style.visibility = "visible";
+  document.getElementById(idTwo).style.visibility = "visible";
+}
+function hide(idOne, idTwo) {
+  document.getElementById(idOne).style.visibility = "hidden";
+  document.getElementById(idTwo).style.visibility = "hidden";
+}
