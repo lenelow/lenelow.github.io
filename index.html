@@ -24,12 +24,19 @@
 					<div>
 						<h1 class="myProjects">My Projects:</h1>
 						<ul class="projectList"> 
-							<li onMouseOver="hide('project2', 'project3')", onMouseOut="show('project2', 'project3')", id="project1" class="project"><a href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a></li> 
-							<li onMouseOver="hide('project1', 'project3')", onMouseOut="show('project1', 'project3')", id="project2" class="project"><a href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a></li>
-							<li onMouseOver="hide('project1', 'project2')", onMouseOut="show('project1', 'project2')", id="project3" class="project"><a href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a></li>
-							<li id="project4" class="project"><h2 class="browse">More on the way...</h2></li>
+							<li onMouseOver="hide('project2', 'project3', 'moreComing')", onMouseOut="show('project2', 'project3', 'moreComing')", id="project1" class="project"><a href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a></li> 
+							<li onMouseOver="hide('project1', 'project3', 'moreComing')", onMouseOut="show('project1', 'project3', 'moreComing')", id="project2" class="project"><a href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a></li>
+							<li onMouseOver="hide('project1', 'project2', 'moreComing')", onMouseOut="show('project1', 'project2', 'moreComing')", id="project3" class="project"><a href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a></li>
+							<li id="moreComing"><h2 class="browse">More on the way...</h2></li>
 						</ul>
 					</div>
+					<div class="container">
+							<a data-scroll href="#full">
+								<div class="arrow"></div>
+							</a>
+						</div>
+						<div id="full"></div>
+						<h2 id="learn">Learn About Me</h2>
 				</div>
 		</div>
 		</main>	

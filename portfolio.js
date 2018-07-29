@@ -79,11 +79,13 @@ $('a[href="#invisibleP"]')
     }
   });
 
-function show(idOne, idTwo) {
+function show(idOne, idTwo, idThree) {
   document.getElementById(idOne).style.visibility = "visible";
   document.getElementById(idTwo).style.visibility = "visible";
+  document.getElementById(idThree).style.visibility = "visible";
 }
-function hide(idOne, idTwo) {
+function hide(idOne, idTwo, idThree) {
   document.getElementById(idOne).style.visibility = "hidden";
   document.getElementById(idTwo).style.visibility = "hidden";
+  document.getElementById(idThree).style.visibility = "hidden";
 }

@@ -69,7 +69,7 @@ button:focus {
 	margin: 0 auto;
 	font-family: 'Tajawal', sans-serif;
 	font-size: 15px;
-	height: 640px;
+	height: 100vh;
 	background: #AFD0E5;
 	padding: 5px;
 	width: 100vw;
@@ -84,6 +84,25 @@ ul {
 	-ms-transform: scale(1.5); /* IE 9 */
 	-webkit-transform: scale(1.5); /* Safari 3-8 */
 	transform: scale(1.5); 
+}
+
+.arrow {
+	box-sizing: border-box;
+	height: 3vw;
+	width: 3vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 0px 1px 1px 0px;
+	transform: rotate(45deg);
+	transition: border-width 150ms ease-in-out;
+	margin: 0 auto;
+	vertical-align: baseline;
+	margin-top: 15vh;
+}
+
+#learn {
+	text-align: center;
+	font-weight: 300;
 }
 
 li {
