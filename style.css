@@ -4,7 +4,7 @@ body {
 
 .containerOne {
 	height: 640px;
-	background-color: #DDF9FF;
+	background-color: #4056A1;
 	width: 100vw;
 	height: 100vh;
 	padding-top: 100px;
@@ -17,10 +17,11 @@ body {
 
 #typedtext {
 	line-height: 1.5;
-	font-family: 'Kirang Haerang', cursive; 
+	font-family: 'Indie Flower', cursive; 
 	font-size: 28px; 
 	margin: 60px 320px 10px 300px; 
-	letter-spacing: 6px; 
+	letter-spacing: 6px;
+	color: #C5CBE3; 
 }
 
 .buttonDiv {
@@ -33,25 +34,26 @@ button {
 	margin-top: 60px;
 	border-radius: 40px;
 	font-size: 17px;
-	background-color: #1FABFF;
+	background-color: #C5CBE3;
 	color: #34403F;
 	font-family: 'Do Hyeon', sans-serif;
-	border: 1px solid #12608F;
-	box-shadow: -2px 7px 3px rgba(0, 0, 0, 0.15);
+	border: 2px solid #222E57;
+	box-shadow: -4px 5px rgba(0, 0, 0, 0.23);
 }
 
 .myProjects {
 	margin-left: 7vw;
 	margin-top: 6vh;
-	font-family: 'Rubik', sans-serif;
 }
 
 button:hover {
-	background-color: #76C8E5
+	background-color: #1883C4;
 }
 
 .projectList {
 	margin-top: 12vh;
+	list-style-type: none;
+	margin-left: 30px;
 }
 
 button:active {
@@ -70,14 +72,11 @@ button:focus {
 	font-family: 'Tajawal', sans-serif;
 	font-size: 15px;
 	height: 100vh;
-	background: #AFD0E5;
+	background: #88BDBC;
 	padding: 5px;
 	width: 100vw;
-}
-
-ul {
-	list-style-type: none;
-	margin-left: 30px;
+	color: #254E58;
+	font-family: 'Rubik', sans-serif;
 }
 
 .project:hover {
@@ -91,7 +90,7 @@ ul {
 	height: 3vw;
 	width: 3vw;
 	border-style: solid;
-	border-color: black;
+	border-color: #254E58;
 	border-width: 0px 1px 1px 0px;
 	transform: rotate(45deg);
 	transition: border-width 150ms ease-in-out;
@@ -105,7 +104,7 @@ ul {
 	font-weight: 300;
 }
 
-li {
+.projectList li {
 	display: inline-block;
 	margin-right: 10px;
 	margin-left: -20;
@@ -113,8 +112,16 @@ li {
 
 .browse {
 	float: left;
-	color: #727A79;
 	margin-bottom: 110px;
+}
+
+.containerThree {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 }
 
 @media (max-width: 950px) {
