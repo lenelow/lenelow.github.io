@@ -122,6 +122,10 @@ button:focus {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+	background-color: #A8D0E6;
+	color: #00A382;
+	font-size: 30px;
+	font-family: 'Abril Fatface', cursive;
 }
 
 @media (max-width: 950px) {
