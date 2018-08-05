@@ -128,8 +128,9 @@ button:focus {
 	font-family: 'Abril Fatface', cursive;
 }
 
-#secondInvisibleP {
-	display: none;
+#secondInvisibleP:focus {
+	border: none;
+	outline: none;
 }
 
 @media (max-width: 950px) {
