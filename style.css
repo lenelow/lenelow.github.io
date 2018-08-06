@@ -72,10 +72,10 @@ button:focus {
 	font-family: 'Tajawal', sans-serif;
 	font-size: 15px;
 	height: 100vh;
-	background: #88BDBC;
+	background: #C5CBE3;
 	padding: 5px;
 	width: 100vw;
-	color: #254E58;
+	color: #4056A1;
 	font-family: 'Rubik', sans-serif;
 }
 
@@ -83,6 +83,10 @@ button:focus {
 	-ms-transform: scale(1.5); /* IE 9 */
 	-webkit-transform: scale(1.5); /* Safari 3-8 */
 	transform: scale(1.5); 
+}
+
+.complicatedDiv {
+	background-color: red;
 }
 
 .arrow {
@@ -122,10 +126,15 @@ button:focus {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	background-color: #A8D0E6;
-	color: #00A382;
+	background-color: #4056A1;
+	color: #C5CBE3;
 	font-size: 30px;
 	font-family: 'Abril Fatface', cursive;
+}
+
+.containerThree a {
+	color: #C5CBE3;
+	text-decoration: none;
 }
 
 #secondInvisibleP:focus {
