@@ -161,6 +161,11 @@ button:focus {
 	font-family: 'Abril Fatface', cursive;
 }
 
+.containerThree a {
+	color: #C5CBE3;
+	text-decoration: none;
+}
+
 #secondInvisibleP:focus {
 	border: none;
 	outline: none;
