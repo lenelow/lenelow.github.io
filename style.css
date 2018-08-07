@@ -41,7 +41,7 @@ button {
 	box-shadow: -4px 5px rgba(0, 0, 0, 0.23);
 }
 
-.myProjects {
+#myProjects {
 	margin-left: 7vw;
 	margin-top: 6vh;
 }
@@ -63,7 +63,8 @@ button:hover {
 .test:hover + .blah {
 	display: flex;
 	float: right;
-	margin-left: 100px;
+	margin-left: 80px;
+	line-height: 1.6;
 }
 
 button:active {
@@ -89,11 +90,16 @@ button:focus {
 	font-family: 'Rubik', sans-serif;
 }
 
+#project1 img {
+	height: 280px;
+	width: 280px;
+}
+
 #project1:hover {
 	-ms-transform: scale(1.5); /* IE 9 */
 	-webkit-transform: scale(1.5); /* Safari 3-8 */
 	transform: scale(1.5);
-	margin-left: 100px;
+	margin-left: 110px;
 }
 
 #project2:hover {
@@ -128,7 +134,7 @@ button:focus {
 }
 
 .blah {
-	width: 200px;
+	width: 300px;
 }
 
 .projectList li {

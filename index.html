@@ -24,11 +24,16 @@
 				<div class="containerTwo">
 					<p id="invisibleP"></p>	
 					<div>
-						<h1 class="myProjects">My Projects:</h1>
+						<h1 id="myProjects">My Projects:</h1>
 						<ul class="projectList"> 
-							<li onMouseOver="hide('project2', 'project3', 'moreComing')", onMouseOut="show('project2', 'project3', 'moreComing')", id="project1" class="project"><a class="test" href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a><div class="blah">Hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello</div></li> 
-							<li onMouseOver="hide('project1', 'project3', 'moreComing')", onMouseOut="show('project1', 'project3', 'moreComing')", id="project2" class="project"><a href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a></li>
-							<li onMouseOver="hide('project1', 'project2', 'moreComing')", onMouseOut="show('project1', 'project2', 'moreComing')", id="project3" class="project"><a href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a></li>
+							<li onMouseOver="hide('project2', 'project3', 'moreComing', 'myProjects')", onMouseOut="show('project2', 'project3', 'moreComing', 'myProjects')", id="project1" class="project"><a class="test" href="https://placeholder.com"><img src="snapshots/hangman.png"></a><div class="blah">
+								This is a hangman game that uses nothing but HTML, CSS and JavaScript. The user has to guess the letters of a 
+								coding-related word, and has nine opportunities to guess an incorrect letter before losing the game.<br />
+								The hardest part for me was JavaScript, since I had just begun learning it when I built this project. Making a hangman 
+								game turned out to be much more difficult than I had expected, but I'm glad I did it and I'm proud of how it turned out!
+							</div></li> 
+							<li onMouseOver="hide('project1', 'project3', 'moreComing', 'myProjects')", onMouseOut="show('project1', 'project3', 'moreComing', 'myProjects')", id="project2" class="project"><a href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a></li>
+							<li onMouseOver="hide('project1', 'project2', 'moreComing', 'myProjects')", onMouseOut="show('project1', 'project2', 'moreComing', 'myProjects')", id="project3" class="project"><a href="https://placeholder.com"><img src="http://via.placeholder.com/280x280"></a></li>
 							<li id="moreComing"><h2 class="browse">More on the way...</h2></li>
 						</ul>
 					</div>
