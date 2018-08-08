@@ -184,6 +184,11 @@ button:focus {
 	text-decoration: none;
 }
 
+.copyright {
+	font-size: 15px;
+	margin-right: 80vw;
+}
+
 #secondInvisibleP:focus {
 	border: none;
 	outline: none;
