@@ -275,9 +275,30 @@ button:focus {
 	}
 }
 
-@media (max-width: 706px) {
+@media (max-width: 740px) {
+	.projectList {
+		padding-left: 10px;
+	}
+}
+
+@media (max-width: 708px) {
 	#typedtext {
 		margin: 110px 80px 10px 140px;
+	}
+
+	#project1 img {
+		width: 180px;
+		height: 180px;
+	}
+
+	#project2 img {
+		width: 180px;
+		height: 180px;
+	}
+
+	#project3 img {
+		width: 180px;
+		height: 180px;
 	}
 }
 
@@ -285,6 +306,48 @@ button:focus {
 	#typedtext {
 		margin-left: 60px;
 		margin-right: 40px;
+	}
+
+	.test:hover + .blah {
+		margin-left: 10px;
+		line-height: 1.2;
+	}
+
+	.projectList {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 580px) {
+	.projectList li {
+		display: block;
+		text-align: center;
+		margin-top: 2vh;
+	}
+
+	#learn {
+		display: none;
+	}
+
+	#myProjects {
+		font-size: 15px;
+		margin-left: 3vw;
+		margin-top: 2vh;
+	}
+
+	.projectList {
+		margin-top: 2vh;
+	}
+
+	.test:hover + .blah {
+		float: none;
+		padding-top: 4vh;
+		margin: 0 auto;
+		line-height: 1.4;
+	}
+
+	#project1:hover {
+		margin-top: 6vh;
 	}
 }
 
