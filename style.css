@@ -325,10 +325,6 @@ button:focus {
 		margin-top: 2vh;
 	}
 
-	#learn {
-		display: none;
-	}
-
 	#myProjects {
 		font-size: 15px;
 		margin-left: 3vw;
@@ -384,6 +380,27 @@ button:focus {
 		margin-right: 15px;
 		margin-left: 45px;
 	}
+
+	.containerOne {
+		width: 100vw;
+		padding-right: 25px;
+	}
+	.test:hover + .blah {
+		width: 100%;
+		line-height: 1.2;
+		margin-right: 20px;
+		padding-right: -20px;
+		text-align: center;
+	}
+
+	#project1:hover {
+		margin: 2px 22px;
+	}
+
+	.copyright {
+		padding-left: 4vw; 
+		font-size: 12px;
+	}
   }
 
   @media only screen and (min-width: 321px) 
@@ -402,6 +419,9 @@ button:focus {
 		font-size: 20px;
 		margin-right: 15px;
 		margin-left: 45px;
+	}
+	.test:hover + .blah {
+		padding-right: 4vh;
 	}
   }
   @media screen and (min-width: 481px)
