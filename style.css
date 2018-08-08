@@ -7,7 +7,25 @@ body {
 	background-color: #4056A1;
 	width: 100vw;
 	height: 100vh;
-	padding-top: 100px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#navbar {
+	overflow: hidden;
+	width: 96px;
+	height: 89px;
+	border: 5px solid #9738FF;
+}
+  
+#navbar a {
+	float: left;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .animationDiv {
