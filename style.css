@@ -249,7 +249,9 @@ button:focus {
 		margin-left: 45px;
 	}
   }
-  @media screen and (min-width: 481px) {
+  @media screen and (min-width: 481px)
+  and (max-width: 767px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
 	/* comes into effect for screens larger than or equal to 481 pixels */
 	.buttonDiv {
         margin-top: 80px;
@@ -266,7 +268,28 @@ button:focus {
 	}
   }
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 768px) 
+  and (max-width: 1023px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	/* comes into effect for screens larger than or equal to 481 pixels */
+	.buttonDiv {
+        margin-top: 100px;
+	}
+	button {
+		font-size: 25px;
+		padding: 25px;
+	}
+	#typedtext {
+		margin-top: 150px;
+		font-size: 32px;
+		margin-right: 200px;
+		margin-left: 65px;
+	}
+  }
+
+  @media screen and (min-width: 1024px)
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
 	/* comes into effect for screens larger than or equal to 481 pixels */
 	.buttonDiv {
         margin-top: 100px;
@@ -281,5 +304,5 @@ button:focus {
 		margin-right: 200px;
 		margin-left: 65px;
 	}
-  }
+  }  
   
