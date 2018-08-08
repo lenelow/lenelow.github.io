@@ -149,6 +149,11 @@ button:focus {
 #learn {
 	text-align: center;
 	font-weight: 300;
+	color: #4056A1;
+}
+
+#eliminateUnderline {
+	text-decoration: none;
 }
 
 .blah {
@@ -194,15 +199,79 @@ button:focus {
 	outline: none;
 }
 
+#project1:hover {
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5);
+	margin-left: 80px;
+}
+
+@media (max-width: 1150px) {
+	#moreComing {
+		display: none;
+	}
+}
+
 @media (max-width: 950px) {
     #typedtext {
         margin: 110px 160px 10px 220px;
+	}
+	#project1 img {
+		width: 220px;
+		height: 220px;
+	}
+
+	#project2 img {
+		width: 220px;
+		height: 220px;
+	}
+
+	#project3 img {
+		width: 220px;
+		height: 220px;
+	}
+
+	.projectList li {
+		margin-right: 20px;
+		margin-left: -40;
+		margin-top: 12vh;
+	}
+
+	.test:hover + .blah {
+		display: flex;
+		float: right;
+		margin-left: 10px;
+		line-height: 1.2;
 	}
 }
 
 @media (max-width: 829px) {
 	#typedtext {
         margin: 110px 120px 10px 180px;
+	}
+
+	.projectList li {
+		margin-right: 10px;
+		margin-left: -20;
+		margin-top: 12vh;
+	}
+
+	.projectList {
+		margin-top: 12vh;
+		list-style-type: none;
+		margin-left: 0;
+	}
+
+	#project1:hover {
+		-ms-transform: scale(1.2); /* IE 9 */
+		-webkit-transform: scale(1.2); /* Safari 3-8 */
+		transform: scale(1.2);
+		margin-left: 40px;
+	}
+
+	.test:hover + .blah {
+		margin-left: 30px;
+		line-height: 1.2;
 	}
 }
 
