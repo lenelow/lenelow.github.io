@@ -81,8 +81,9 @@ button:hover {
 .test:hover + .blah {
 	display: flex;
 	float: right;
-	margin-left: 80px;
+	margin-left: 40px;
 	line-height: 1.6;
+	margin-top: 5vh;
 }
 
 button:active {
@@ -117,7 +118,12 @@ button:focus {
 	-ms-transform: scale(1.5); /* IE 9 */
 	-webkit-transform: scale(1.5); /* Safari 3-8 */
 	transform: scale(1.5);
-	margin-left: 110px;
+	margin-left: 150px;
+	padding-left: 100px;
+}
+
+#project1 img:hover {
+	margin-top: 6vh;
 }
 
 #project2:hover {
