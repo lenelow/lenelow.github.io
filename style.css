@@ -455,13 +455,6 @@ button:focus {
 	.containerThree {
 		padding-right: 20px;
 	}
-	#learn {
-		display: none;
-	}
-
-	.arrow {
-		display: none;
-	}
 
 	.projectList {
 		margin-top: 2vh;
@@ -482,6 +475,13 @@ button:focus {
   and (max-width: 767px) 
   and (-webkit-min-device-pixel-ratio: 2) {
 	/* comes into effect for screens larger than or equal to 481 pixels */
+	/* #learn {
+		visibility: visible;
+	}
+
+	.arrow {
+		visibility: visible;
+	} */
 	.buttonDiv {
         margin-top: 80px;
 	}
@@ -556,13 +556,13 @@ button:focus {
 		padding-left: 4vw; 
 		font-size: 12px;
 	}
-	#learn {
-		display: block;
+	/* #learn {
+		visibility: visible;
 	}
 
 	.arrow {
-		display: block;
-	}
+		visibility: visible;
+	} */
   }
 
   @media screen and (min-width: 1024px)
@@ -586,13 +586,13 @@ button:focus {
 		padding-left: 4vw; 
 		font-size: 13px;
 	}
-	#learn {
-		display: block;
+	/* #learn {
+		visibility: visible;
 	}
 
 	.arrow {
-		display: block;
-	}
+		visibility: visible;
+	} */
 	.projectList {
 		margin-top: 15vh;
 	}
