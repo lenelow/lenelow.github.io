@@ -76,6 +76,12 @@ button:hover {
 
 .blah {
 	display: none;
+	width: 300px;
+}
+
+.blahblah {
+	display: none;
+	width: 300px;
 }
 
 .test:hover + .blah {
@@ -83,6 +89,14 @@ button:hover {
 	float: right;
 	margin-left: 40px;
 	line-height: 1.6;
+	margin-top: 5vh;
+}
+
+.secondTest:hover + .blahblah {
+	display: flex;
+	float: right;
+	margin-left: 40px;
+	line-height: 1.5;
 	margin-top: 5vh;
 }
 
@@ -126,6 +140,15 @@ button:focus {
 	margin-top: 6vh;
 }
 
+#project2 img {
+	height: 280px;
+	width: 280px;
+}
+
+#project2 img:hover {
+	margin-top: 6vh;
+}
+
 #project2:hover {
 	-ms-transform: scale(1.5); /* IE 9 */
 	-webkit-transform: scale(1.5); /* Safari 3-8 */
@@ -160,10 +183,6 @@ button:focus {
 
 #eliminateUnderline {
 	text-decoration: none;
-}
-
-.blah {
-	width: 300px;
 }
 
 .projectList li {
@@ -629,4 +648,3 @@ button:focus {
 		margin-left: 25px;
 	}
   }  
-  
