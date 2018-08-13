@@ -84,6 +84,11 @@ button:hover {
 	width: 300px;
 }
 
+.blahblahblah {
+	display: none;
+	width: 300px;
+}
+
 .test:hover + .blah {
 	display: flex;
 	float: right;
@@ -98,6 +103,16 @@ button:hover {
 	margin-left: 40px;
 	line-height: 1.5;
 	margin-top: 5vh;
+}
+
+.thirdTest:hover + .blahblahblah {
+	display: flex;
+	float: left;
+	margin-left: 40px;
+	line-height: 1.2;
+	margin-bottom: 100vh;
+	padding-bottom: 50vh;
+	margin-left: 35vh;
 }
 
 button:active {
@@ -128,6 +143,11 @@ button:focus {
 	width: 280px;
 }
 
+#project3 img {
+	height: 280px;
+	width: 280px;
+}
+
 #project1:hover {
 	-ms-transform: scale(1.5); /* IE 9 */
 	-webkit-transform: scale(1.5); /* Safari 3-8 */
@@ -147,6 +167,10 @@ button:focus {
 
 #project2 img:hover {
 	margin-top: 6vh;
+}
+
+#project3 img:hover {
+	margin-left: 6vh;
 }
 
 #project2:hover {
