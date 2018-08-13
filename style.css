@@ -225,14 +225,14 @@ button:focus {
 
 .linkList {
 	list-style-type: none;
-	width: 665vw;
+	width: 65vw;
 }
 
 .browse {
 	float: left;
 	margin-bottom: 110px;
 }
-
+ 
 .linkList li {
 	display: inline-block;
 	padding: 0 7vw;
@@ -244,7 +244,7 @@ button:focus {
 
 .linkList li a {
 	text-decoration: none;
-	color: #4056A1;
+	color: #4056A1; 
 }
 
 .containerThree {
@@ -281,7 +281,7 @@ button:focus {
 	-webkit-transform: scale(1.5); /* Safari 3-8 */
 	transform: scale(1.5);
 	margin-left: 80px;
-}
+}  
 
 @media (max-width: 1150px) {
 	#moreComing {
@@ -378,7 +378,7 @@ button:focus {
 		width: 180px;
 		height: 180px;
 	}
-}
+} 
 
 @media (max-width: 626px) {
 	#typedtext {
@@ -489,7 +489,7 @@ button:focus {
 		margin-right: 20px;
 		padding-right: -20px;
 		text-align: center;
-	}
+	} 
 
 	#project1:hover {
 		margin: 2px 22px;
@@ -517,10 +517,10 @@ button:focus {
 	.projectList {
 		margin-top: 0 !important;
 	}
-  }
-
+  } 
+ 
   @media only screen and (min-width: 321px) 
-  and (max-width: 480px) 
+  and (max-width: 480px)   
   and (-webkit-min-device-pixel-ratio: 2) {
 	/* comes into effect for screens between 321 and 480 pixels (inclusive) */
 	.buttonDiv {
@@ -568,13 +568,13 @@ button:focus {
   and (max-width: 767px) 
   and (-webkit-min-device-pixel-ratio: 2) {
 	/* comes into effect for screens larger than or equal to 481 pixels */
-	/* #learn {
+	#learn {
 		visibility: visible;
 	}
 
 	.arrow {
 		visibility: visible;
-	} */
+	}
 	.buttonDiv {
         margin-top: 80px;
 	}
@@ -649,13 +649,13 @@ button:focus {
 		padding-left: 4vw; 
 		font-size: 12px;
 	}
-	/* #learn {
+	#learn {
 		visibility: visible;
 	}
 
 	.arrow {
 		visibility: visible;
-	} */
+	} 
   }
 
   @media screen and (min-width: 1024px)
@@ -699,4 +699,4 @@ button:focus {
 	.test:hover + .blah {
 		margin-left: 25px;
 	}
-  }  
+  }   
