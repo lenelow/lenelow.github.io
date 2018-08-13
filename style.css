@@ -181,6 +181,14 @@ button:focus {
 	color: #4056A1;
 }
 
+.links {
+	margin-top: 10px;
+}
+
+.secondTest {
+	margin-bottom: 50px;
+}
+
 #eliminateUnderline {
 	text-decoration: none;
 }
@@ -191,9 +199,28 @@ button:focus {
 	margin-left: -20;
 }
 
+.linkList {
+	list-style-type: none;
+	width: 665vw;
+}
+
 .browse {
 	float: left;
 	margin-bottom: 110px;
+}
+
+.linkList li {
+	display: inline-block;
+	padding: 0 7vw;
+}
+
+.linkList #hangmanLinks {
+	padding: 0 6vw 0 8vw;
+}
+
+.linkList li a {
+	text-decoration: none;
+	color: #4056A1;
 }
 
 .containerThree {
