@@ -505,20 +505,20 @@ button:focus {
 }
 
 @media (max-width: 580px) {
-	.projectList li {
-		display: block;
-		text-align: center;
-		margin-top: 2vh;
+
+	.projectList {
+		margin-left: 2vw;
 	}
 
 	#myProjects {
-		font-size: 15px;
+		font-size: 25px;
 		margin-left: 3vw;
 		margin-top: 2vh;
 	}
 
 	.projectList {
 		margin-top: 2vh;
+		font-size: 25px;
 	}
 
 	.test:hover + .blah {
@@ -537,7 +537,25 @@ button:focus {
 	}
 
 	.responsiveName {
-		font-size: 18px;
+		font-size: 21px;
+	}
+
+	.linkList {
+		padding-left: 20px;
+		width: 100vw;
+	}
+
+	.linkList li {
+		display: inline-block;
+		padding: 0 2vw;
+	}
+	
+	.linkList #hangmanLinks {
+		padding: 0 5vw 0 1vw;
+	}
+
+	.linkList #websiteLinks {
+		padding: 0 4vw 0 3vw;
 	}
 }
 
@@ -558,6 +576,34 @@ button:focus {
 	.arrow {
 		margin-top: 20vh;
 		border-color: #4056A1;
+	}
+}
+
+@media (max-width: 482px) {
+	.projectList {
+		display: none;
+	}
+
+	.linkList {
+		font-size: 25px;
+		list-style-type: disc !important;
+		margin-top: 8vh;
+	}
+
+	.linkList li {
+		display: list-item;
+		margin-left: 25vw;
+		padding: 5vh 0;
+	}
+
+	.linkList li a {
+		text-decoration: underline;
+	}
+	.linkList #websiteLinks {
+		padding: 5vh 0;
+	}
+	.linkList #hangmanLinks {
+		padding: 5vh 0;
 	}
 }
 
@@ -589,6 +635,9 @@ button:focus {
 		margin-left: 45px;
 	}
 	.containerThree {
+		padding-right: 20px;
+	}
+	.containerOne {
 		padding-right: 20px;
 	}
 	.test:hover + .blah {
@@ -625,6 +674,9 @@ button:focus {
 	.projectList {
 		margin-top: 0 !important;
 	}
+	.linkList li {
+		margin-left: 15vw;
+	}
   } 
  
   @media only screen and (min-width: 321px) 
@@ -649,13 +701,13 @@ button:focus {
 	}
 	}
 	.containerOne {
-		padding-right: 10px;
+		padding: 20px 20px 0 0;
 	}
 	.containerTwo {
-		padding-right: 15px;
+		padding: 5px 20px 0 0;
 	}
 	.containerThree {
-		padding-right: 20px;
+		padding: 0 20px 0 0;
 	}
 
 	.projectList {
