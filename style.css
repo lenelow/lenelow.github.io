@@ -302,15 +302,15 @@ button:focus {
 	 
 	.linkList li {
 		display: inline-block;
-		padding: 0 7vw;
+		padding: 0 6vw;
 	}
 	
 	.linkList #hangmanLinks {
-		padding: 0 7vw 0 10vw;
+		padding: 0 7vw 0 9vw;
 	}
 
 	.linkList #websiteLinks {
-		padding: 0 10vw 0 8vw;
+		padding: 0 9vw 0 8vw;
 	}
 	
 }
@@ -344,6 +344,10 @@ button:focus {
 	#project3 img {
 		width: 220px;
 		height: 220px;
+	}
+
+	.projectList {
+		margin-top: 6vh;
 	}
 
 	.projectList li {
