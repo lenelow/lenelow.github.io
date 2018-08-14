@@ -177,15 +177,15 @@ $('a[href="#Three"]')
     }
   });
 
-function show(idOne, idTwo, idThree, idFour) {
-  document.getElementById(idOne).style.visibility = "visible";
-  document.getElementById(idTwo).style.visibility = "visible";
-  document.getElementById(idThree).style.visibility = "visible";
-  document.getElementById(idFour).style.visibility = "visible";
-}
-function hide(idOne, idTwo, idThree, idFour) {
-  document.getElementById(idOne).style.visibility = "hidden";
-  document.getElementById(idTwo).style.visibility = "hidden";
-  document.getElementById(idThree).style.visibility = "hidden";
-  document.getElementById(idFour).style.visibility = "hidden";
-}
+// function show(idOne, idTwo, idThree, idFour) {
+//   document.getElementById(idOne).style.visibility = "visible";
+//   document.getElementById(idTwo).style.visibility = "visible";
+//   document.getElementById(idThree).style.visibility = "visible";
+//   document.getElementById(idFour).style.visibility = "visible";
+// }
+// function hide(idOne, idTwo, idThree, idFour) {
+//   document.getElementById(idOne).style.visibility = "hidden";
+//   document.getElementById(idTwo).style.visibility = "hidden";
+//   document.getElementById(idThree).style.visibility = "hidden";
+//   document.getElementById(idFour).style.visibility = "hidden";
+// }
