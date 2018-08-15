@@ -17,7 +17,7 @@ function stickyFunction() {
 var aText = new Array(
   "Hi there!",
   "My name is Leah.",
-  "I'm a web developer,",
+  "I'm a front-end web developer,",
   "and I'm itching to learn and build new things."
 );
 var iSpeed = 20; // time delay of print out
