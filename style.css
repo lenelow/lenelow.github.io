@@ -93,7 +93,7 @@ button:hover {
 	width: 300px;
 }
 
-.test:hover + .blah {
+/* .test:hover + .blah {
 	display: flex;
 	float: right;
 	margin-left: 40px;
@@ -117,10 +117,9 @@ button:hover {
 	margin-bottom: 100vh;
 	padding-bottom: 50vh;
 	margin-left: 35vh;
-}
+} */
 
 button:active {
-  background-color: #76C8E5;
   box-shadow: -2px 7px 3px rgba(0, 0, 0, 0.15);
   transform: translateY(4px);
 }
@@ -889,9 +888,9 @@ div .projectList {
 		margin-left: 60px;
 	}
 
-	.test:hover + .blah {
+	/* .test:hover + .blah {
 		margin-left: 20px;
-	}
+	} */
 	.copyright {
 		padding-left: 4vw; 
 		font-size: 12px;
@@ -902,7 +901,16 @@ div .projectList {
 
 	.arrow {
 		visibility: visible;
-	} 
+	}
+	
+	.button {
+		color: #34403F;
+	}
+
+	button:hover {
+		background-color: #B8AFAF;
+	}
+	  
   }
 
   @media screen and (min-width: 1024px)
