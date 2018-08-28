@@ -11,6 +11,10 @@ body {
 	padding-left: 10px;
 }
 
+.projectList {
+	padding-left: 0 !important;
+}
+
 #navbar {
 	overflow: hidden;
 	width: 96px;
@@ -69,7 +73,7 @@ button:hover {
 }
 
 .projectList {
-	margin-top: 12vh;
+	margin-top: 5vh;
 	list-style-type: none;
 	margin-left: 30px;
 }
@@ -126,6 +130,11 @@ button:focus {
     outline: none;
 }
 
+div .projectList {
+	overflow: auto;
+    white-space: nowrap;
+}
+
 .containerTwo {
 	margin: 0 auto;
 	font-family: 'Tajawal', sans-serif;
@@ -146,6 +155,16 @@ button:focus {
 #project3 img {
 	height: 280px;
 	width: 280px;
+}
+
+#project4 img {
+	height: 280px;
+	width: 280px;
+}
+
+#project5 img {
+	height: 350px;
+	width: 150x;
 }
 
 /* #project1:hover {
@@ -195,7 +214,7 @@ button:focus {
 	transition: border-width 150ms ease-in-out;
 	margin: 0 auto;
 	vertical-align: baseline;
-	margin-top: 15vh;
+	margin-top: 5vh;
 }
 
 #learn {
@@ -222,32 +241,18 @@ button:focus {
 
 .projectList li {
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 30px;
 	margin-left: -20;
 }
 
-.linkList {
-	list-style-type: none;
-	width: 77vw;
-}
-
-.browse {
-	float: left;
-	margin-bottom: 110px;
-}
- 
-.linkList li {
-	display: inline-block;
-	padding: 0 7vw;
-}
-
-.linkList #hangmanLinks {
-	padding: 0 6vw 0 9vw;
-}
-
-.linkList li a {
+.link a {
 	text-decoration: none;
 	color: #4056A1; 
+	font-size: 15px;
+}
+
+.link {
+	text-align: center;
 }
 
 .containerThree {
@@ -286,52 +291,18 @@ button:focus {
 	margin-left: 80px;
 } */ 
 
-@media (max-width: 1150px) {
-	#moreComing {
-		display: none;
+@media (max-width: 1050px) {
+	.projectList {
+		margin-top: 2vh !important;
+		margin-bottom: 12vh;
 	}
-
-	.linkList {
-		width: 90vw;
-	}
-	
-	.browse {
-		float: left;
-		margin-bottom: 110px;
-	}
-	 
-	.linkList li {
-		display: inline-block;
-		padding: 0 6vw;
-	}
-	
-	.linkList #hangmanLinks {
-		padding: 0 7vw 0 9vw;
-	}
-
-	.linkList #websiteLinks {
-		padding: 0 9vw 0 8vw;
-	}
-	
 }
 
 @media (max-width: 955px) {
-	.linkList li {
-		display: inline-block;
-		padding: 0 6vw;
-	}
-	
-	.linkList #hangmanLinks {
-		padding: 0 6vw 0 8vw;
-	}
-
-	.linkList #websiteLinks {
-		padding: 0 7vw 0 6vw;
-	}
     #typedtext {
         margin: 110px 160px 10px 220px;
 	}
-	#project1 img {
+	/* #project1 img {
 		width: 220px;
 		height: 220px;
 	}
@@ -344,23 +315,41 @@ button:focus {
 	#project3 img {
 		width: 220px;
 		height: 220px;
+	} */
+
+	ul .projectList {
+		margin-top: 0vh !important;
+		vertical-align: top;
 	}
 
-	.projectList {
-		margin-top: 6vh;
+	.shrinkContainer {
+		height: 450px;
 	}
 
 	.projectList li {
 		margin-right: 20px;
 		margin-left: -40;
-		margin-top: 12vh;
+		/* margin-top: 12vh; */
 	}
 
-	.test:hover + .blah {
+	#invisibleP {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	#myProjects {
+		margin-top: 12px;
+	}
+
+	/* .test:hover + .blah {
 		display: flex;
 		float: right;
 		margin-left: 10px;
 		line-height: 1.2;
+	} */
+
+	.arrow {
+		margin-top: 50px;
 	}
 }
 
@@ -372,7 +361,7 @@ button:focus {
 	.projectList li {
 		margin-right: 10px;
 		margin-left: -20;
-		margin-top: 12vh;
+		/* margin-top: 12vh; */
 	}
 
 	.projectList {
@@ -381,22 +370,40 @@ button:focus {
 		margin-left: 0;
 	}
 
-	#project1:hover {
-		-ms-transform: scale(1.2); /* IE 9 */
-		-webkit-transform: scale(1.2); /* Safari 3-8 */
-		transform: scale(1.2);
-		margin-left: 40px;
+	ul .projectList {
+		margin-top: 0vh !important;
+		vertical-align: top;
 	}
 
-	.test:hover + .blah {
+	.shrinkContainer {
+		height: 450px;
+	}
+
+	#invisibleP {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	#myProjects {
+		margin-top: 12px;
+	}
+
+	/*#project1:hover {
+		-ms-transform: scale(1.2); /* IE 9 */
+		/*-webkit-transform: scale(1.2); /* Safari 3-8 */
+		/*transform: scale(1.2);
+		margin-left: 40px;
+	}*/
+
+	/* .test:hover + .blah {
 		margin-left: 30px;
 		line-height: 1.2;
 	}
-	
+	 */
 }
 
 @media (max-width: 768px) {
-	.linkList li {
+	/* .linkList li {
 		display: inline-block;
 		padding: 0 5vw;
 	}
@@ -407,7 +414,7 @@ button:focus {
 
 	.linkList #websiteLinks {
 		padding: 0 6vw 0 5vw;
-	}
+	} */
 }
 
 @media (max-width: 740px) {
@@ -421,7 +428,7 @@ button:focus {
 		margin: 110px 80px 10px 140px;
 	}
 
-	#project1 img {
+	/* #project1 img {
 		width: 180px;
 		height: 180px;
 	}
@@ -434,11 +441,11 @@ button:focus {
 	#project3 img {
 		width: 180px;
 		height: 180px;
-	}
+	} */
 } 
 
 @media (max-width: 687px) {
-	.linkList li {
+	/* .linkList li {
 		display: inline-block;
 		padding: 0 4vw;
 	}
@@ -449,7 +456,7 @@ button:focus {
 
 	.linkList #websiteLinks {
 		padding: 0 5vw 0 4vw;
-	}
+	} */
 
 	.projectList {
 		margin-left: 4vw;
@@ -462,10 +469,10 @@ button:focus {
 		margin-right: 40px;
 	}
 
-	.test:hover + .blah {
+	/* .test:hover + .blah {
 		margin-left: 10px;
 		line-height: 1.2;
-	}
+	} */
 
 	.projectList {
 		padding-left: 0;
@@ -482,33 +489,71 @@ button:focus {
 	}
 
 	.responsiveName {
-		display: inline-block;
+		display: block;
 		font-size: 25px;
+		text-align: center;
 	}
 
-	#hangman {
+	.project {
+		padding-bottom: 10px !important;
+	}
+
+	/* #hangman {
 		padding-left: 4vw;
 	}
 
 	#website {
 		padding: 0 3vw 0 2vw;
-	}
+	} */
 
-	.linkList li {
-		display: inline-block;
+	.projectList li {
+		display: block;
 		padding: 0 3vw;
 	}
-	
-	.linkList #hangmanLinks {
+
+	#learn, .arrow {
+		display: none;
+	}
+
+	/* .linkList #hangmanLinks {
 		padding: 0 5vw 0 1vw;
 	}
 
 	.linkList #websiteLinks {
 		padding: 0 4vw 0 3vw;
+	} */
+
+	#myProjects {
+		font-size: 20px;
 	}
 }
 
 @media (max-width: 580px) {
+
+	#hangmanLinks {
+		margin-left: 7vw;
+	}
+
+	#websiteLinks {
+		margin-left: 3vw;
+	}
+
+	#fitnessFriendsLinks {
+		margin-left: 8vw;
+	}
+
+	#doggyDateLinks {
+		margin-left: 8vw;
+	}
+
+	#ASOIAFLinks {
+		margin-left: 16vw;
+	}
+
+	.responsiveName {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
 
 	.projectList {
 		margin-left: 2vw;
@@ -525,7 +570,7 @@ button:focus {
 		font-size: 25px;
 	}
 
-	.test:hover + .blah {
+	/* .test:hover + .blah {
 		float: none;
 		padding-top: 4vh;
 		margin: 0 auto;
@@ -534,7 +579,7 @@ button:focus {
 
 	#project1:hover {
 		margin-top: 6vh;
-	}
+	} */
 
 	.copyright {
 		margin-left: 5vw;
@@ -544,7 +589,7 @@ button:focus {
 		font-size: 21px;
 	}
 
-	.linkList {
+	/* .linkList {
 		padding-left: 20px;
 		width: 100vw;
 	}
@@ -560,7 +605,7 @@ button:focus {
 
 	.linkList #websiteLinks {
 		padding: 0 4vw 0 3vw;
-	}
+	} */
 }
 
 @media (max-width: 506px) {
@@ -584,7 +629,7 @@ button:focus {
 }
 
 @media (max-width: 482px) {
-	.projectList {
+	/* .projectList {
 		display: none;
 	}
 
@@ -608,6 +653,43 @@ button:focus {
 	}
 	.linkList #hangmanLinks {
 		padding: 5vh 0;
+	} */
+
+	.project {
+		padding-bottom: 2px !important;
+	}
+
+	.responsiveName {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.link {
+		margin-top: 2vh;
+	}
+
+	#hangman {
+		margin-top: 5vh;
+	}
+
+	#hangmanLinks {
+		margin-left: 7vw;
+	}
+
+	#websiteLinks {
+		margin-left: 3vw;
+	}
+
+	#fitnessFriendsLinks {
+		margin-left: 8vw;
+	}
+
+	#doggyDateLinks {
+		margin-left: 8vw;
+	}
+
+	#ASOIAFLinks {
+		margin-left: 17vw;
 	}
 }
 
@@ -660,7 +742,7 @@ button:focus {
 		padding-left: 4vw; 
 		font-size: 12px;
 	}
-	#project1 img {
+	/* #project1 img {
 		width: 160px;
 		height: 160px;
 	}
@@ -673,7 +755,7 @@ button:focus {
 	#project3 img {
 		width: 160px;
 		height: 160px;
-	}
+	} */
 
 	.projectList {
 		margin-top: 0 !important;
@@ -703,7 +785,7 @@ button:focus {
 	.test:hover + .blah {
 		padding-right: 4vh;
 	}
-	}
+	
 	.containerOne {
 		padding: 20px 20px 0 0;
 	}
@@ -789,7 +871,8 @@ button:focus {
 	}
 
 	#myProjects {
-		margin-top: 15vh;
+		/* margin-top: 15vh; */
+		margin-top: 3vh;
 		font-size: 25px;
 	}
 	.containerThree {

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
 		<title>Leah Enelow</title>
 		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Kirang+Haerang|Rubik|Indie+Flower|Abril+Fatface" rel="stylesheet">
@@ -28,12 +29,14 @@
 					<p id="invisibleP"></p>	
 					<div>
 						<h1 id="myProjects">My Projects:</h1>
+						<div class="shrinkContainer">
 						<ul class="projectList"> 
 							<li id="project1" class="project">
 								<!-- <a class="test" href="#"> -->
 									<img src="snapshots/hangman.png">
 								<!-- </a> -->
 								<h1 id="hangman" class="responsiveName">Hangman</h1>
+								<h3 id="hangmanLinks" class="link"><a href="https://github.com/lenelow/hangman/tree/gh-pages" target="_blank">GitHub</a> | <a href="https://lenelow.github.io/hangman/index.html" target="_blank">Application</a></h3>
 								<div class="blah">
 									This is a hangman game that uses nothing but HTML, CSS and JavaScript. The user has to guess the letters of a 
 									coding-related word, and has nine opportunities to guess an incorrect letter before losing the game.<br />
@@ -47,6 +50,7 @@
 									<img src="snapshots/acupuncture_website.png">
 								<!-- </a> -->
 								<h1 id="website" class="responsiveName">Local Business</h1>
+								<h3 id="websiteLinks" class="link"><a href="https://github.com/lenelow/Homework/tree/newest-version/final%20project/acupuncturewebsite" target="_blank">Github</a> | <a href="https://www.centerforintegrativeacupuncture.com" target="_blank">Website</a></h3>
 								<div class="blahblah">
 									This is website for a local acupuncture practice that's opening this month. It was built 
 									with HTML and CSS. This experience was very different from building projects for General Assembly.
@@ -60,6 +64,7 @@
 									<img src="snapshots/fitness_friends.png">
 								<!-- </a> -->
 								<h1 class="responsiveName">Fitness Friends</h1>
+								<h3 id="fitnessFriendsLinks" class="link"><a href="https://github.com/lenelow/fitness-friends/blob/master/README.md" target="_blank">GitHub</a> | <a href="http://fitnessfriends.surge.sh/" target="_blank">Application</a></h3>
 								<div class="blahblahblah">
 									This application is called Fitness Friends, and it was made for fitness lovers who are looking for other fitness lovers exercise with.
 									This was my first time doing a group project. Originally, I assumed working with others would mean less work, but it
@@ -69,13 +74,18 @@
 									I did a large portion of the work in React, and I did all of the styling. My favorite part of this project was working in React.
 								</div>
 							</li>
-							<li id="moreComing"><h2 class="browse">More on the way...</h2></li>
+							<li id="project4" class="project">
+								<img src="snapshots/doggydate.png">
+								<h1 class="responsiveName" class="link">DoggyDate</h1>
+								<h3 id="doggyDateLinks" class="link"><a href="https://github.com/lenelow/Project-2/blob/master/README.md" target="_blank">GitHub</a> | <a href="https://doggydate.herokuapp.com/" target="_blank">Application</a></h3>
+							</li>
+							<li id="project5" class="project">
+								<img src="snapshots/asoiaf.png">
+								<h1 class="responsiveName">ASOIAF</h1>
+								<h3 id="ASOIAFLinks" class="link"><a href="https://github.com/lenelow/project4/blob/master/README.md">GitHub</a> | <a href="">Not Yet Deployed</a></h3>
+							</li>
 						</ul>
-						<ul class="linkList">
-							<li id="hangmanLinks"><a href="https://github.com/lenelow/hangman/tree/gh-pages" target="_blank">Github</a> | <a href="https://lenelow.github.io/hangman/index.html" target="_blank">Application</a></li>
-							<li id="websiteLinks"><a href="https://github.com/lenelow/Homework/tree/newest-version/final%20project/acupuncturewebsite" target="_blank">Github</a> | <a href="https://www.centerforintegrativeacupuncture.com" target="_blank">Website</a></li>
-							<li id="fitnessFriendsLinks"><a href="https://github.com/lenelow/fitness-friends/blob/master/README.md" target="_blank">Github</a> | <a href="http://fitnessfriends.surge.sh/" target="_blank">Application</a></li>
-						</ul>
+						</div>
 					</div>
 					<div class="container">
 							<a data-scroll href="#full">
