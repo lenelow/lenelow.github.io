@@ -1,6 +1,15 @@
 body {
 	margin: 0;
+	/* display: flex;
+  	justify-content: center;
+  	align-items: center; */
 } 
+
+/* html,
+body {
+  width: 100%;
+  height: 100%;
+} */
 
 .containerOne {
 	height: 640px;
@@ -66,6 +75,8 @@ button {
 #myProjects {
 	margin-left: 7vw;
 	margin-top: 6vh;
+	font-weight: 400;
+	margin-bottom: 50px;
 }
 
 button:hover {
@@ -76,9 +87,10 @@ button:hover {
 	margin-top: 5vh;
 	list-style-type: none;
 	margin-left: 30px;
+	margin-bottom: 15px;
 }
 
-.blah {
+/* .blah {
 	display: none;
 	width: 300px;
 }
@@ -91,7 +103,7 @@ button:hover {
 .blahblahblah {
 	display: none;
 	width: 300px;
-}
+} */
 
 /* .test:hover + .blah {
 	display: flex;
@@ -129,9 +141,49 @@ button:focus {
     outline: none;
 }
 
+#project1 {
+	width: 280px;
+}
+
+summary {
+	outline: none;
+}
+
+.italics {
+	font-style: italic;
+}
+
+details {
+	color: black;
+	/* position: relative; */
+}
+
+details:hover {
+	color: black;
+}
+
+.details {
+	font-weight: 700;
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-1.25em);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+details[open] .content {
+	animation-name: fadeInDown;
+  	animation-duration: 0.7s;
+}
+
 div .projectList {
 	overflow: auto;
-    white-space: nowrap;
+    white-space: nowrap !important;
 }
 
 .containerTwo {
@@ -164,6 +216,15 @@ div .projectList {
 #project5 img {
 	height: 350px;
 	width: 150x;
+	margin-left: 50px;
+}
+
+#project5 details {
+	margin-left: 50px;
+}
+
+#project5 .content {
+	margin-left: -45px;
 }
 
 /* #project1:hover {
@@ -202,37 +263,43 @@ div .projectList {
 	/* -webkit-transform: scale(1.5); /* Safari 3-8 */
 	/* transform: scale(1.5);
 } */
-.arrow {
-	box-sizing: border-box;
-	height: 3vw;
-	width: 3vw;
-	border-style: solid;
-	border-color: #254E58;
-	border-width: 0px 1px 1px 0px;
-	transform: rotate(45deg);
-	transition: border-width 150ms ease-in-out;
-	margin: 0 auto;
-	vertical-align: baseline;
-	margin-top: 5vh;
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.arrowWrapper {
+	position: absolute;
+	right: 50%;
+	display: inline-block;
+}
+
+i {
+	border: solid #4056A1;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 8px;
+	text-align: center;
 }
 
 #learn {
 	text-align: center;
 	font-weight: 300;
 	color: #4056A1;
+	margin-top: 50px;
 }
 
 .responsiveName {
 	display: none;
 }
 
-.links {
+/* .links {
 	margin-top: 10px;
-}
+} */
 
-.secondTest {
+/* .secondTest {
 	margin-bottom: 50px;
-}
+} */
 
 #eliminateUnderline {
 	text-decoration: none;
@@ -242,6 +309,8 @@ div .projectList {
 	display: inline-block;
 	margin-right: 30px;
 	margin-left: -20;
+	width: 280px;
+	vertical-align: top;
 }
 
 .link a {
@@ -252,6 +321,7 @@ div .projectList {
 
 .link {
 	text-align: center;
+	font-weight: 400;
 }
 
 .containerThree {
@@ -289,6 +359,9 @@ div .projectList {
 	/* transform: scale(1.5);
 	margin-left: 80px;
 } */ 
+.project {
+	display: flex;
+}
 
 @media (max-width: 1050px) {
 	.projectList {
@@ -347,8 +420,8 @@ div .projectList {
 		line-height: 1.2;
 	} */
 
-	.arrow {
-		margin-top: 50px;
+	#learn {
+		margin-top: 30px;
 	}
 }
 
@@ -725,17 +798,17 @@ div .projectList {
 	.containerOne {
 		padding-right: 20px;
 	}
-	.test:hover + .blah {
+	/* .test:hover + .blah {
 		width: 100%;
 		line-height: 1.2;
 		margin-right: 20px;
 		padding-right: -20px;
 		text-align: center;
-	} 
+	}  */
 
-	#project1:hover {
+	/* #project1:hover {
 		margin: 2px 22px;
-	}
+	} */
 
 	.copyright {
 		padding-left: 4vw; 
@@ -781,9 +854,9 @@ div .projectList {
 		margin-right: 15px;
 		margin-left: 45px;
 	}
-	.test:hover + .blah {
+	/* .test:hover + .blah {
 		padding-right: 4vh;
-	}
+	} */
 	
 	.containerOne {
 		padding: 20px 20px 0 0;
@@ -881,12 +954,12 @@ div .projectList {
 		margin-top: 10vh;
 	}
 
-	#project1:hover {
+	/* #project1:hover {
 		-ms-transform: scale(1.3); /* IE 9 */
 		-webkit-transform: scale(1.3); /* Safari 3-8 */
 		transform: scale(1.3);
 		margin-left: 60px;
-	}
+	} */
 
 	/* .test:hover + .blah {
 		margin-left: 20px;
@@ -947,11 +1020,11 @@ div .projectList {
 	#myProjects {
 		margin-top: 10vh;
 	}
-	#project1:hover {
+	/* #project1:hover {
 		margin-left: 110px;
 	}
 
 	.test:hover + .blah {
 		margin-left: 25px;
-	}
+	} */
   }   
