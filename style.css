@@ -1,16 +1,6 @@
 body {
 	margin: 0;
-	/* display: flex;
-  	justify-content: center;
-  	align-items: center; */
 } 
-
-/* html,
-body {
-  width: 100%;
-  height: 100%;
-} */
-
 .containerOne {
 	height: 640px;
 	background-color: #4056A1;
@@ -19,33 +9,26 @@ body {
 	padding-top: 10px;
 	padding-left: 10px;
 }
-
 .projectList {
 	padding-left: 0 !important;
 }
-
 #navbar {
 	overflow: hidden;
 	width: 96px;
 	height: 89px;
 	border: 5px solid #9738FF;
-}
-  
+} 
 #navbar a {
 	float: left;
 }
-
 .sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
 }
-
 .animationDiv {
-	/* text-align: center; */
 	height: 200px;
 }
-
 #typedtext {
 	line-height: 1.5;
 	font-family: 'Indie Flower', cursive; 
@@ -54,12 +37,10 @@ body {
 	letter-spacing: 6px;
 	color: #C5CBE3; 
 }
-
 .buttonDiv {
 	text-align: center;
 	padding: 20px;
 }
-
 button {
 	padding: 17px;
 	margin-top: 60px;
@@ -71,101 +52,49 @@ button {
 	border: 2px solid #222E57;
 	box-shadow: -4px 5px rgba(0, 0, 0, 0.23);
 }
-
 #myProjects {
 	margin-left: 7vw;
 	margin-top: 6vh;
 	font-weight: 400;
 	margin-bottom: 50px;
 }
-
 button:hover {
 	background-color: #B8AFAF;
 }
-
 .projectList {
 	margin-top: 5vh;
 	list-style-type: none;
 	margin-left: 30px;
 	margin-bottom: 15px;
 }
-
-/* .blah {
-	display: none;
-	width: 300px;
-}
-
-.blahblah {
-	display: none;
-	width: 300px;
-}
-
-.blahblahblah {
-	display: none;
-	width: 300px;
-} */
-
-/* .test:hover + .blah {
-	display: flex;
-	float: right;
-	margin-left: 40px;
-	line-height: 1.6;
-	margin-top: 5vh;
-}
-
-.secondTest:hover + .blahblah {
-	display: flex;
-	float: right;
-	margin-left: 40px;
-	line-height: 1.5;
-	margin-top: 5vh;
-}
-
-.thirdTest:hover + .blahblahblah {
-	display: flex;
-	float: left;
-	margin-left: 40px;
-	line-height: 1.2;
-	margin-bottom: 100vh;
-	padding-bottom: 50vh;
-	margin-left: 35vh;
-} */
-
 button:active {
   box-shadow: -2px 7px 3px rgba(0, 0, 0, 0.15);
   transform: translateY(4px);
 }
-
 button:focus {
     border: none;
     outline: none;
 }
-
 #project1 {
 	width: 280px;
 }
-
 summary {
 	outline: none;
 }
-
 .italics {
 	font-style: italic;
 }
-
 details {
 	color: black;
 	/* position: relative; */
+	line-height: 1.4;
 }
-
 details:hover {
 	color: black;
 }
-
 .details {
 	font-weight: 700;
 }
-
 @keyframes fadeInDown {
 	0% {
 		opacity: 0;
@@ -180,139 +109,61 @@ details[open] .content {
 	animation-name: fadeInDown;
   	animation-duration: 0.7s;
 }
-
 div .projectList {
 	overflow: auto;
 	white-space: nowrap !important;
 	padding-bottom: 15px;
 }
-
 .containerTwo {
 	margin: 0 auto;
 	font-family: 'Tajawal', sans-serif;
 	font-size: 15px;
-	min-height: 100vh;
+	min-height: 80vh;
 	background: #C5CBE3;
-	padding: 5px;
+	padding: 5px 5px 5px 5px;
 	width: 100vw;
 	color: #4056A1;
 	font-family: 'Rubik', sans-serif;
 }
-
 #expansion {
 	width: 100%;
 	height: 25vh;
 	background: #C5CBE3;
 	display: none;
 }
-
 #project1 img {
 	height: 280px;
 	width: 280px;
 }
-
 #project3 img {
 	height: 280px;
 	width: 280px;
 }
-
 #project4 img {
 	height: 280px;
 	width: 280px;
 }
-
 #project5 img {
 	height: 350px;
 	width: 150x;
 	margin-left: 50px;
 }
-
 #project5 details {
 	margin-left: 40px;
 }
-
 #project5 .content {
 	margin-left: -45px;
 }
-
-/* #project1:hover {
-	-ms-transform: scale(1.5); /* IE 9 */
-	/* -webkit-transform: scale(1.5); /* Safari 3-8 */
-	/* transform: scale(1.5);
-	margin-left: 150px;
-	padding-left: 100px;
-}
-
-#project1 img:hover {
-	margin-top: 6vh;
-} */
-
 #project2 img {
 	height: 280px;
 	width: 280px;
 }
-
-/* #project2 img:hover {
-	margin-top: 6vh;
-}
-
-#project3 img:hover {
-	margin-left: 6vh;
-} */
-
-/* #project2:hover {
-	-ms-transform: scale(1.5); /* IE 9 */
-	/* -webkit-transform: scale(1.5); /* Safari 3-8 */
-	/* transform: scale(1.5); 
-}
-
-#project3:hover {
-	-ms-transform: scale(1.5); /* IE 9 */
-	/* -webkit-transform: scale(1.5); /* Safari 3-8 */
-	/* transform: scale(1.5);
-} */
-/* .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-} */
-
-/* .arrowWrapper {
-	position: absolute;
-	right: 50%;
-	display: inline-block;
-}
-
-i {
-	border: solid #4056A1;
-	border-width: 0 3px 3px 0;
-	display: inline-block;
-	padding: 8px;
-	text-align: center;
-} */
-/* 
-#learn {
-	text-align: center;
-	font-weight: 300;
-	color: #4056A1;
-	margin-top: 50px;
-} */
-
 .responsiveName {
 	display: none;
 }
-
-/* .links {
-	margin-top: 10px;
-} */
-
-/* .secondTest {
-	margin-bottom: 50px;
-} */
-
 #eliminateUnderline {
 	text-decoration: none;
 }
-
 .projectList li {
 	display: inline-block;
 	margin-right: 30px;
@@ -320,18 +171,15 @@ i {
 	width: 280px;
 	vertical-align: top;
 }
-
 .link a {
 	text-decoration: none;
 	color: #4056A1; 
 	font-size: 15px;
 }
-
 .link {
 	text-align: center;
 	font-weight: 400;
 }
-
 .containerThree {
 	height: 78vh;
 	width: 100vw;
@@ -343,351 +191,158 @@ i {
 	color: #C5CBE3;
 	font-size: 20px;
 	font-family: 'Abril Fatface', cursive;
-	padding-right: 15px;
+	padding-right: 10px;
 }
-
 .containerThree a {
 	color: #C5CBE3;
 	text-decoration: none;
 }
-
 .copyright {
 	font-size: 15px;
 	margin-right: 70vw;
 }
-
 #secondInvisibleP:focus {
 	border: none;
 	outline: none;
-}
-
-/* #project1:hover {
-	-ms-transform: scale(1.5); /* IE 9 */
-	/* -webkit-transform: scale(1.5); /* Safari 3-8 */
-	/* transform: scale(1.5);
-	margin-left: 80px;
-} */ 
+} 
 .project {
 	display: flex;
 }
-
-@media (max-width: 1050px) {
-	.projectList {
-		margin-top: 2vh !important;
-		margin-bottom: 12vh;
-	}
-}
-
 @media (max-width: 955px) {
     #typedtext {
         margin: 110px 160px 10px 220px;
 	}
-	/* #project1 img {
-		width: 220px;
-		height: 220px;
-	}
-
-	#project2 img {
-		width: 220px;
-		height: 220px;
-	}
-
-	#project3 img {
-		width: 220px;
-		height: 220px;
-	} */
-
 	ul .projectList {
 		margin-top: 0vh !important;
 		vertical-align: top;
 	}
-
-	.shrinkContainer {
-		height: 450px;
-	}
-
 	.projectList li {
 		margin-right: 20px;
 		margin-left: -40;
-		/* margin-top: 12vh; */
 	}
-
 	#invisibleP {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
-
 	#myProjects {
 		margin-top: 12px;
 	}
-
-	/* .test:hover + .blah {
-		display: flex;
-		float: right;
-		margin-left: 10px;
-		line-height: 1.2;
-	} */
-
-	/* #learn {
-		margin-top: 30px;
-	} */
 }
-
 @media (max-width: 829px) {
 	#typedtext {
         margin: 110px 120px 10px 180px;
 	}
-
 	.projectList li {
 		margin-right: 10px;
 		margin-left: -20;
-		/* margin-top: 12vh; */
 	}
-
 	.projectList {
 		margin-top: 12vh;
 		list-style-type: none;
 		margin-left: 0;
 	}
-
 	ul .projectList {
 		margin-top: 0vh !important;
 		vertical-align: top;
 	}
-
-	.shrinkContainer {
-		height: 450px;
-	}
-
 	#invisibleP {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
-
 	#myProjects {
 		margin-top: 12px;
 	}
-
-	/*#project1:hover {
-		-ms-transform: scale(1.2); /* IE 9 */
-		/*-webkit-transform: scale(1.2); /* Safari 3-8 */
-		/*transform: scale(1.2);
-		margin-left: 40px;
-	}*/
-
-	/* .test:hover + .blah {
-		margin-left: 30px;
-		line-height: 1.2;
-	}
-	 */
 }
-
-@media (max-width: 768px) {
-	/* .linkList li {
-		display: inline-block;
-		padding: 0 5vw;
-	}
-	
-	.linkList #hangmanLinks {
-		padding: 0 5vw 0 7vw;
-	}
-
-	.linkList #websiteLinks {
-		padding: 0 6vw 0 5vw;
-	} */
-}
-
 @media (max-width: 740px) {
 	.projectList {
 		padding-left: 10px;
 	}
 }
-
 @media (max-width: 708px) {
 	#typedtext {
 		margin: 110px 80px 10px 140px;
 	}
-
-	/* #project1 img {
-		width: 180px;
-		height: 180px;
-	}
-
-	#project2 img {
-		width: 180px;
-		height: 180px;
-	}
-
-	#project3 img {
-		width: 180px;
-		height: 180px;
-	} */
-} 
-
+}
 @media (max-width: 687px) {
-	/* .linkList li {
-		display: inline-block;
-		padding: 0 4vw;
-	}
-	
-	.linkList #hangmanLinks {
-		padding: 0 6vw 0 3vw;
-	}
-
-	.linkList #websiteLinks {
-		padding: 0 5vw 0 4vw;
-	} */
-
 	.projectList {
 		margin-left: 4vw;
 	}
 }
-
 @media (max-width: 626px) {
 	#typedtext {
 		margin-left: 60px;
 		margin-right: 40px;
 	}
-
-	/* .test:hover + .blah {
-		margin-left: 10px;
-		line-height: 1.2;
-	} */
-
 	.projectList {
 		padding-left: 0;
 	}
-
 	.copyright {
 		margin-left: 5vw;
 	}
 }
-
 @media (max-width: 613px) {
 	.projectList li img {
 		display: none;
 	}
-
 	.responsiveName {
 		display: block;
 		font-size: 25px;
 		text-align: center;
+		font-weight: 400;
 	}
-
 	.project {
 		padding-bottom: 10px !important;
 	}
-
-	/* #hangman {
-		padding-left: 4vw;
+	details {
+		display: none;
 	}
-
-	#website {
-		padding: 0 3vw 0 2vw;
-	} */
-
 	.projectList li {
 		display: block;
 		padding: 0 3vw;
+		margin: 0 auto;
 	}
-
-	/* #learn, .arrow {
-		display: none;
-	} */
-
-	/* .linkList #hangmanLinks {
-		padding: 0 5vw 0 1vw;
-	}
-
-	.linkList #websiteLinks {
-		padding: 0 4vw 0 3vw;
-	} */
-
 	#myProjects {
 		font-size: 20px;
 	}
 }
-
 @media (max-width: 580px) {
-
 	#hangmanLinks {
 		margin-left: 7vw;
 	}
-
 	#websiteLinks {
 		margin-left: 3vw;
 	}
-
 	#fitnessFriendsLinks {
 		margin-left: 8vw;
 	}
-
 	#doggyDateLinks {
 		margin-left: 8vw;
 	}
-
 	#ASOIAFLinks {
-		margin-left: 16vw;
+		margin-left: 1vw;
 	}
-
 	.responsiveName {
 		margin-top: 0;
 		margin-bottom: 0;
+		font-size: 21px;
 	}
-
 	.projectList {
 		margin-left: 2vw;
+		margin-top: 2vh;
+		font-size: 25px;
 	}
-
 	#myProjects {
 		font-size: 25px;
 		margin-left: 3vw;
 		margin-top: 2vh;
 	}
-
-	.projectList {
-		margin-top: 2vh;
-		font-size: 25px;
-	}
-
-	/* .test:hover + .blah {
-		float: none;
-		padding-top: 4vh;
-		margin: 0 auto;
-		line-height: 1.4;
-	}
-
-	#project1:hover {
-		margin-top: 6vh;
-	} */
-
 	.copyright {
 		margin-left: 5vw;
 	}
-
-	.responsiveName {
-		font-size: 21px;
+	.link a {
+		text-align: center;
 	}
-
-	/* .linkList {
-		padding-left: 20px;
-		width: 100vw;
-	}
-
-	.linkList li {
-		display: inline-block;
-		padding: 0 2vw;
-	}
-	
-	.linkList #hangmanLinks {
-		padding: 0 5vw 0 1vw;
-	}
-
-	.linkList #websiteLinks {
-		padding: 0 4vw 0 3vw;
-	} */
 }
-
 @media (max-width: 506px) {
 	#typedtext {
 		margin-left: 20px;
@@ -696,94 +351,47 @@ i {
 	.buttonDiv {
         margin-top: 30px;
 	}
-
 	.copyright {
 		margin-left: 3vw;
 		margin-right: 50vw;
 	}
-
-	/* .arrow {
-		margin-top: 20vh;
-		border-color: #4056A1;
-	} */
 }
-
 @media (max-width: 482px) {
-	/* .projectList {
-		display: none;
-	}
-
-	.linkList {
-		font-size: 25px;
-		list-style-type: disc !important;
-		margin-top: 8vh;
-	}
-
-	.linkList li {
-		display: list-item;
-		margin-left: 25vw;
-		padding: 5vh 0;
-	}
-
-	.linkList li a {
-		text-decoration: underline;
-	}
-	.linkList #websiteLinks {
-		padding: 5vh 0;
-	}
-	.linkList #hangmanLinks {
-		padding: 5vh 0;
-	} */
-
 	.project {
 		padding-bottom: 2px !important;
 	}
-
 	.responsiveName {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
-
 	.link {
 		margin-top: 2vh;
 	}
-
 	#hangman {
 		margin-top: 5vh;
 	}
-
 	#hangmanLinks {
 		margin-left: 7vw;
 	}
-
 	#websiteLinks {
 		margin-left: 3vw;
 	}
-
 	#fitnessFriendsLinks {
 		margin-left: 8vw;
 	}
-
 	#doggyDateLinks {
 		margin-left: 8vw;
 	}
-
-	#ASOIAFLinks {
-		margin-left: 17vw;
-	}
 }
-
 @media (max-width: 446px) {
 	#typedtext {
 		margin-left: 10px;
 		margin-right: 5px;
 	}
-
 	.copyright {
 		margin-left: 5vw;
 	}
 }
-
 @media only screen 
   and (max-width: 320px) 
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -800,55 +408,17 @@ i {
 		margin-right: 15px;
 		margin-left: 45px;
 	}
-	.containerThree {
-		padding-right: 20px;
-	}
-	.containerOne {
-		padding-right: 20px;
-	}
-	/* .test:hover + .blah {
-		width: 100%;
-		line-height: 1.2;
-		margin-right: 20px;
-		padding-right: -20px;
-		text-align: center;
-	}  */
-
-	/* #project1:hover {
-		margin: 2px 22px;
-	} */
-
 	.copyright {
 		padding-left: 4vw; 
 		font-size: 12px;
 	}
-	/* #project1 img {
-		width: 160px;
-		height: 160px;
-	}
-
-	#project2 img {
-		width: 160px;
-		height: 160px;
-	}
-
-	#project3 img {
-		width: 160px;
-		height: 160px;
-	} */
-
 	.projectList {
 		margin-top: 0 !important;
 	}
-	.linkList li {
-		margin-left: 15vw;
-	}
   } 
- 
   @media only screen and (min-width: 321px) 
   and (max-width: 480px)   
   and (-webkit-min-device-pixel-ratio: 2) {
-	/* comes into effect for screens between 321 and 480 pixels (inclusive) */
 	.buttonDiv {
         margin-top: 80px;
 	}
@@ -862,29 +432,20 @@ i {
 		margin-right: 15px;
 		margin-left: 45px;
 	}
-	/* .test:hover + .blah {
-		padding-right: 4vh;
-	} */
-	
 	.containerOne {
-		padding: 20px 20px 0 0;
+		padding-top: 20px;
 	}
 	.containerTwo {
-		padding: 5px 20px 0 0;
+		min-height: 100vh;
+		padding-top: 5px
 	}
-	.containerThree {
-		padding: 0 20px 0 0;
-	}
-
 	.projectList {
 		margin-top: 2vh;
 	}
-
 	#myProjects {
 		text-align: center;
 		margin-left: 0;
 	}
-
 	.copyright {
 		padding-left: 4vw; 
 		font-size: 12px;
@@ -893,14 +454,6 @@ i {
   @media screen and (min-width: 481px)
   and (max-width: 767px) 
   and (-webkit-min-device-pixel-ratio: 2) {
-	/* comes into effect for screens larger than or equal to 481 pixels */
-	/* #learn {
-		visibility: visible;
-	}
-
-	.arrow {
-		visibility: visible;
-	} */
 	.buttonDiv {
         margin-top: 80px;
 	}
@@ -931,73 +484,38 @@ i {
 		font-size: 12px;
 	}
   }
-
   @media screen and (min-width: 768px) 
   and (max-width: 1023px)
   and (-webkit-min-device-pixel-ratio: 2) {
-	/* comes into effect for screens larger than or equal to 481 pixels */
 	.buttonDiv {
         margin-top: 100px;
 	}
-	/* button {
-		font-size: 25px;
-		padding: 25px;
-	} */
 	#typedtext {
 		margin-top: 150px;
-		font-size: 32px;
 		margin-right: 200px;
 		margin-left: 65px;
 	}
-
 	#myProjects {
-		/* margin-top: 15vh; */
 		margin-top: 3vh;
 		font-size: 25px;
-	}
-	.containerThree {
-		padding-right: 20px;
 	}
 	.projectList {
 		margin-top: 10vh;
 	}
-
-	/* #project1:hover {
-		-ms-transform: scale(1.3); /* IE 9 */
-		-webkit-transform: scale(1.3); /* Safari 3-8 */
-		transform: scale(1.3);
-		margin-left: 60px;
-	} */
-
-	/* .test:hover + .blah {
-		margin-left: 20px;
-	} */
 	.copyright {
 		padding-left: 4vw; 
 		font-size: 12px;
 	}
-	/* #learn {
-		visibility: visible;
-	}
-
-	.arrow {
-		visibility: visible;
-	} */
-	
 	.button {
 		color: #34403F;
 	}
-
 	button:hover {
 		background-color: #B8AFAF;
-	}
-	  
+	}  
   }
-
   @media screen and (min-width: 1024px)
   and (max-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) {
-	/* comes into effect for screens larger than or equal to 481 pixels */
 	.buttonDiv {
         margin-top: 100px;
 	}
@@ -1015,24 +533,10 @@ i {
 		padding-left: 4vw; 
 		font-size: 13px;
 	}
-	/* #learn {
-		visibility: visible;
-	}
-
-	.arrow {
-		visibility: visible;
-	} */
 	.projectList {
 		margin-top: 15vh;
 	}
 	#myProjects {
 		margin-top: 10vh;
 	}
-	/* #project1:hover {
-		margin-left: 110px;
-	}
-
-	.test:hover + .blah {
-		margin-left: 25px;
-	} */
   }   

@@ -177,10 +177,10 @@ $('a[href="#Three"]')
     }
   });
 // only one detail attribute open at a time
-$(".info").on("click", "details", function() {
-  $("details").removeAttr("open");
-  $(this).attr("open", "");
-});
+// $(".info").on("click", "details", function() {
+//   $("details").removeAttr("open");
+//   $(this).attr("open", "");
+// });
 
 // document.getElementsByClassName("summary").addEventListener("click", disappear);
 
@@ -191,14 +191,14 @@ $(".info").on("click", "details", function() {
 //   y.style.display = "none";
 // }
 
-function toggleDiv() {
-  var x = document.getElementById("expansion");
-  if ((document.getElementsByClassName("detailsElem").open = true)) {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+// function toggleDiv() {
+//   var x = document.getElementById("expansion");
+//   if ((document.getElementsByClassName("detailsElem").open = true)) {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
 
 // detailsElem.addEventListener("toggle", function(evt) {
 //   if (detailsElem.open) {
