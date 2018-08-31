@@ -183,19 +183,27 @@ details[open] .content {
 
 div .projectList {
 	overflow: auto;
-    white-space: nowrap !important;
+	white-space: nowrap !important;
+	padding-bottom: 15px;
 }
 
 .containerTwo {
 	margin: 0 auto;
 	font-family: 'Tajawal', sans-serif;
 	font-size: 15px;
-	height: 100vh;
+	min-height: 100vh;
 	background: #C5CBE3;
 	padding: 5px;
 	width: 100vw;
 	color: #4056A1;
 	font-family: 'Rubik', sans-serif;
+}
+
+#expansion {
+	width: 100%;
+	height: 25vh;
+	background: #C5CBE3;
+	display: none;
 }
 
 #project1 img {
@@ -220,7 +228,7 @@ div .projectList {
 }
 
 #project5 details {
-	margin-left: 50px;
+	margin-left: 40px;
 }
 
 #project5 .content {
@@ -263,12 +271,12 @@ div .projectList {
 	/* -webkit-transform: scale(1.5); /* Safari 3-8 */
 	/* transform: scale(1.5);
 } */
-.down {
+/* .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-}
+} */
 
-.arrowWrapper {
+/* .arrowWrapper {
 	position: absolute;
 	right: 50%;
 	display: inline-block;
@@ -280,14 +288,14 @@ i {
 	display: inline-block;
 	padding: 8px;
 	text-align: center;
-}
-
+} */
+/* 
 #learn {
 	text-align: center;
 	font-weight: 300;
 	color: #4056A1;
 	margin-top: 50px;
-}
+} */
 
 .responsiveName {
 	display: none;
@@ -420,9 +428,9 @@ i {
 		line-height: 1.2;
 	} */
 
-	#learn {
+	/* #learn {
 		margin-top: 30px;
-	}
+	} */
 }
 
 @media (max-width: 829px) {
@@ -583,9 +591,9 @@ i {
 		padding: 0 3vw;
 	}
 
-	#learn, .arrow {
+	/* #learn, .arrow {
 		display: none;
-	}
+	} */
 
 	/* .linkList #hangmanLinks {
 		padding: 0 5vw 0 1vw;
@@ -694,10 +702,10 @@ i {
 		margin-right: 50vw;
 	}
 
-	.arrow {
+	/* .arrow {
 		margin-top: 20vh;
 		border-color: #4056A1;
-	}
+	} */
 }
 
 @media (max-width: 482px) {
@@ -886,13 +894,13 @@ i {
   and (max-width: 767px) 
   and (-webkit-min-device-pixel-ratio: 2) {
 	/* comes into effect for screens larger than or equal to 481 pixels */
-	#learn {
+	/* #learn {
 		visibility: visible;
 	}
 
 	.arrow {
 		visibility: visible;
-	}
+	} */
 	.buttonDiv {
         margin-top: 80px;
 	}
@@ -968,13 +976,13 @@ i {
 		padding-left: 4vw; 
 		font-size: 12px;
 	}
-	#learn {
+	/* #learn {
 		visibility: visible;
 	}
 
 	.arrow {
 		visibility: visible;
-	}
+	} */
 	
 	.button {
 		color: #34403F;

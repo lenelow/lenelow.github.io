@@ -176,16 +176,34 @@ $('a[href="#Three"]')
       }
     }
   });
+// only one detail attribute open at a time
+$(".info").on("click", "details", function() {
+  $("details").removeAttr("open");
+  $(this).attr("open", "");
+});
 
-// function show(idOne, idTwo, idThree, idFour) {
-//   document.getElementById(idOne).style.visibility = "visible";
-//   document.getElementById(idTwo).style.visibility = "visible";
-//   document.getElementById(idThree).style.visibility = "visible";
-//   document.getElementById(idFour).style.visibility = "visible";
+// document.getElementsByClassName("summary").addEventListener("click", disappear);
+
+// function disappear() {
+//   var y = document.getElementsByClassName("arrowWrapper");
+//   y.style.display = "none";
+//   var x = document.getElementsById("learn");
+//   y.style.display = "none";
 // }
-// function hide(idOne, idTwo, idThree, idFour) {
-//   document.getElementById(idOne).style.visibility = "hidden";
-//   document.getElementById(idTwo).style.visibility = "hidden";
-//   document.getElementById(idThree).style.visibility = "hidden";
-//   document.getElementById(idFour).style.visibility = "hidden";
-// }
+
+function toggleDiv() {
+  var x = document.getElementById("expansion");
+  if ((document.getElementsByClassName("detailsElem").open = true)) {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+// detailsElem.addEventListener("toggle", function(evt) {
+//   if (detailsElem.open) {
+//     /* the element was toggled open */
+//   } else {
+//     /* the element was toggled closed */
+//   }
+// }, false);
