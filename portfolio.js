@@ -17,7 +17,7 @@ function stickyFunction() {
 var aText = new Array(
   "Hi there!",
   "My name is Leah.",
-  "I'm a front-end developer,",
+  "I'm a web developer,",
   "and I'm itching to learn and build new things."
 );
 var iSpeed = 20; // time delay of print out
@@ -176,34 +176,3 @@ $('a[href="#Three"]')
       }
     }
   });
-// only one detail attribute open at a time
-// $(".info").on("click", "details", function() {
-//   $("details").removeAttr("open");
-//   $(this).attr("open", "");
-// });
-
-// document.getElementsByClassName("summary").addEventListener("click", disappear);
-
-// function disappear() {
-//   var y = document.getElementsByClassName("arrowWrapper");
-//   y.style.display = "none";
-//   var x = document.getElementsById("learn");
-//   y.style.display = "none";
-// }
-
-// function toggleDiv() {
-//   var x = document.getElementById("expansion");
-//   if ((document.getElementsByClassName("detailsElem").open = true)) {
-//     x.style.display = "block";
-//   } else {
-//     x.style.display = "none";
-//   }
-// }
-
-// detailsElem.addEventListener("toggle", function(evt) {
-//   if (detailsElem.open) {
-//     /* the element was toggled open */
-//   } else {
-//     /* the element was toggled closed */
-//   }
-// }, false);
